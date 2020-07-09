@@ -196,9 +196,10 @@ image(ratingMatrix[1:20, 1:25], axes = FALSE, main = "Heatmap of the First 20 ro
 # Performing Data Preparation
 We will conduct data preparation in the following three steps –
 
-#Selecting useful data.
-#Normalizing data.
-#Binarizing the data.
+* Selecting useful data.
+* Normalizing data.
+* Binarizing the data.
+
 For finding useful data in our dataset, we have set the threshold for the minimum number of users who have rated a film as 50. This is also same for minimum number of views that are per film. This way, we have filtered a list of watched films from least-watched ones.
 
 ```
